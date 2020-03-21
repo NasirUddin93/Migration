@@ -1,0 +1,17 @@
+==================How to access Entity Framework==================
+
+Tool > NuGet Package Manager > Manage NuGet Package for Solution
+
+Install-Package EntityFramework -Version 6.2.0
+
+=========================Code first Concept ============================
+ Weblink: https://www.youtube.com/watch?v=db9MSvu7whs&list=PLdg_n0qTEJTX5Wwf7jLbFP9l7Cq2d_gXV&index=5
+Tool > NuGet Package Manager > Package Manager Console
+enable-migrations
+add-migration "initial" -verbose
+update-databse
+=========================================================================
+
+
+
+
